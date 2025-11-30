@@ -1,0 +1,22 @@
+# Ignore Java build outputs
+*.class
+
+# VS Code temp runner file
+tempCodeRunnerFile.*
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# IDE files
+*.iml
+.idea/
+
+# Build output dirs (if used)
+bin/
+out/
+
+target/
+
+# Office temporary files
+~$*
