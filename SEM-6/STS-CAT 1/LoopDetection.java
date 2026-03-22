@@ -1,5 +1,4 @@
 import java.util.*;
-
 public class LoopDetection {
     Node head = null;
     class Node {
@@ -50,9 +49,6 @@ public class LoopDetection {
         }
         return false;
     }
-}
-
-class Main {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
@@ -65,5 +61,6 @@ class Main {
         int b = n - 1;
         l.create(a, b);
         System.out.println(l.detect());
+        sc.close();
     }
 }
